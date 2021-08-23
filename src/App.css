@@ -1,0 +1,51 @@
+/* html, body {
+  height: '100vh';
+  min-height : '100vh';
+  background-color: navy;
+} */
+.container {
+  display: flex;
+  justify-content: center;
+}
+body{
+  background-color: rgb(5, 5, 51) !important;
+ 
+}
+.Main-div{
+  text-align: center;
+
+}
+.caption{
+  margin-top: 100px;
+}
+.add-btn{
+  margin-left: -18px;
+}
+.boxed {
+  width: 323px;
+  border: solid red 2px;
+  
+}
+.button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+.button2 {
+  background-color: white; 
+  color: black; 
+  border: 2px solid #008CBA;
+}
+
+.button2:hover {
+  background-color: #008CBA;
+  color: white;
+}
